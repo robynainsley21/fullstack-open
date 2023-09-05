@@ -26,7 +26,7 @@ sequenceDiagram
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
     activate server
-    server-->>browser: HTML page with updated note
+    server-->>browser: Updated HTML page with new note
     deactivate server
 
 ```
